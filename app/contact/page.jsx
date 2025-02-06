@@ -68,7 +68,7 @@ const Contact = () => {
             servico: servico
         }
         try {
-            const response = await axios.post('http://localhost:3001/send', dados);
+            const response = await axios.post('api-email-qw1r.onrender.com/send', dados);
     
             setStatus('Email enviado com sucesso!');
           } catch (error) {
