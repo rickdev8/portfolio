@@ -28,7 +28,7 @@ const projects = [
     {
         num: "02",
         category: "frontend",
-        title: "Project 1",
+        title: "Project 2",
         description: `Desenvolvi um site para um hospital utilizando React, com o objetivo de oferecer uma experiência de usuário intuitiva e eficiente. O site conta com funcionalidades como agendamento de consultas e informações sobre médicos e especialidades, tudo com um design responsivo e moderno.`,
         stack: [
             { name: "React" }, { name: "Javascript" }, { name: "Html" }, { name: "Css" },
@@ -40,7 +40,7 @@ const projects = [
     {
         num: "03",
         category: "frontend",
-        title: "Project 1",
+        title: "Project 3",
         description: `Este projeto é uma tela de login desenvolvida com HTML, CSS e JavaScript. A interface permite que os usuários insiram suas credenciais e acessem o sistema de forma simples e intuitiva, com validação de dados no frontend.`,
         stack: [
             { name: "Javascript" }, { name: "Html" }, { name: "Css" },
@@ -122,7 +122,7 @@ const Work = () => {
                                 </SwiperSlide>
 
                             })}
-                            <WorkSliderBtns containerStyles="flex gap-2 mt-4 right-0 bottom-[calc(50%_-_22px)]  xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px]
+                            <WorkSliderBtns containerStyles="flex gap-2 mt-4 right-0 bottom-[calc(50%_-_22px)]  xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none" btnStyles=" hover:bg-accent-hover text-primary text-[22px]
                             w-[44px] h-[44px] flex justify-center items-center transition-all" />
                         </Swiper>
                     </div>
