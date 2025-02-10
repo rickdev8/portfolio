@@ -16,7 +16,7 @@ const Home = () => {
             Sou desenvolvedor web full stack, trabalho usando tecnologias como React, Css, Html e JavaScript. Meu foco é criar soluções eficientes, escaláveis e de alta qualidade, sempre visando uma experiência de usuário excepcional.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-6"> {/* Centering button container */}
-              <Button  variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
+              <Button href="public/assets/Currículo Simples Profissional Formação experiência cursos e habilidades.pdf"  variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2" download>
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
