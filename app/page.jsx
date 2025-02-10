@@ -18,7 +18,7 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-6">
               {/* Botão de download do CV */}
               <a 
-                href="/public/assets/Currículo Simples Profissional Formação experiência cursos e habilidades.pdf" 
+                href="/public/assets/curriculo.pdf" 
                 download
               >
                 <Button variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
