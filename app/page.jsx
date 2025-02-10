@@ -13,17 +13,22 @@ const Home = () => {
             <span className="text-xl">Desenvolvedor de Software</span>
             <h1 className="h1 mb-8">Olá sou<br /><span className="text-accent">Rick Abade</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Sou desenvolvedor web full stack, trabalho usando tecnologias como React, Css, Html e JavaScript. Meu foco é criar soluções eficientes, escaláveis e de alta qualidade, sempre visando uma experiência de usuário excepcional.
+              Sou desenvolvedor web full stack, trabalho usando tecnologias como React, Css, Html e JavaScript. Meu foco é criar soluções eficientes, escaláveis e de alta qualidade, sempre visando uma experiência de usuário excepcional.
             </p>
-            <div className="flex flex-col xl:flex-row items-center gap-6"> {/* Centering button container */}
-              <Button href="public/assets/Currículo Simples Profissional Formação experiência cursos e habilidades.pdf"  variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2" download>
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+            <div className="flex flex-col xl:flex-row items-center gap-6">
+              {/* Botão de download do CV */}
+              <a 
+                href="/public/assets/Currículo Simples Profissional Formação experiência cursos e habilidades.pdf" 
+                download
+              >
+                <Button variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl-mb-0">
-                <div className="mb-8 xl:mb-0 ">
-                  <Social containerStyles="flex gap-6" iconStyles=" w-9 h-9 border border-accent rounded-full flex justify-center items-center
-                  text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500" />
+                <div className="mb-8 xl:mb-0">
+                  <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500" />
                 </div>
               </div>
             </div>
