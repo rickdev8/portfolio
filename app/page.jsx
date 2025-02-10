@@ -18,17 +18,12 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-6">
               {/* Botão de download do CV */}
               <a href="/assets/curriculo.pdf" download>
-                 <Button variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
-                  <span>Download CV</span>
-                        <FiDownload className="text-xl" />
-                       </Button>
-                 </a>
-
                 <Button variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />
                 </Button>
               </a>
+
               <div className="mb-8 xl-mb-0">
                 <div className="mb-8 xl:mb-0">
                   <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500" />
