@@ -17,10 +17,13 @@ const Home = () => {
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-6">
               {/* Botão de download do CV */}
-              <a 
-                href="../public/assets//curriculo.pdf" 
-                download
-              >
+              <a href="/assets/curriculo.pdf" download>
+                 <Button variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
+                  <span>Download CV</span>
+                        <FiDownload className="text-xl" />
+                       </Button>
+                 </a>
+
                 <Button variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />
