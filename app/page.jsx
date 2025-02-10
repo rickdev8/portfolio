@@ -13,10 +13,10 @@ const Home = () => {
             <span className="text-xl">Desenvolvedor de Software</span>
             <h1 className="h1 mb-8">Olá sou<br /><span className="text-accent">Rick Abade</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Sou desenvolvedor web full stack, trabalho usando tecnologias como React, Node.js e JavaScript. Meu foco é criar soluções eficientes, escaláveis e de alta qualidade, sempre visando uma experiência de usuário excepcional.
+            Sou desenvolvedor web full stack, trabalho usando tecnologias como React, Css, Html e JavaScript. Meu foco é criar soluções eficientes, escaláveis e de alta qualidade, sempre visando uma experiência de usuário excepcional.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-6"> {/* Centering button container */}
-              <Button variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
+              <Button  variant="outline" size="lg" className="uppercase flex justify-center items-center mb-8 gap-2">
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
