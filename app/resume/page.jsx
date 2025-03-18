@@ -55,17 +55,17 @@ const experience = {
         },
         {
             company: "Site De Monitoramento Financeiro",
-            position: "Desenvolvi um site de monitoramento financeiro utilizando Javascript, NodeJs, ExpressJs, MongoDb, Axios e outras tecnologias relevantes, onde é possível, Cadastrar usuário, fazer login, adicionar, editar, ver e excluir transações direto do banco de dados!",
+            position: "Desenvolvi um site de monitoramento financeiro"
             duration: "2024"
         },
         {
             company: "Landing Page",
-            position: "Fiz uma landing page de hospital usando ReactJs, o site conta com um design bonito é profissional, além de animações, e técnicas de otimização avançada, esse site me permitiui evoluir minha experiência no front end e ReactJS.",
+            position: "Fiz uma landing page de hospital usando ReactJs"
             duration: "none"
         },
         {
             company: "Site de Monitoramento e Automação",
-            position: "Estou desenvolvendo um site de monitoramento em tempo real de criptomoedas, que permite adicionar lembretes com base em parâmetros passados pelo usuário, ver as estatísticas das criptomoedas em tempo real e muito mais, estou fazendo utilizando: Nodejs, ReactJs, Mongodb, Axios, JWT, Bcrypt, expressJs e muito mais",
+            position: "site de monitoramento em tempo real de criptomoedas"
             duration: "Em desenvolvimento"
         },
        
