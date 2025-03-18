@@ -55,17 +55,17 @@ const experience = {
         },
         {
             company: "Site De Monitoramento Financeiro",
-            position: "Desenvolvi um site de monitoramento financeiro"
+            position: "Desenvolvi um site de monitoramento financeiro",
             duration: "2024"
         },
         {
             company: "Landing Page",
-            position: "Fiz uma landing page de hospital usando ReactJs"
+            position: "Fiz uma landing page de hospital usando ReactJs",
             duration: "none"
         },
         {
             company: "Site de Monitoramento e Automação",
-            position: "site de monitoramento em tempo real de criptomoedas"
+            position: "site de monitoramento em tempo real de criptomoedas",
             duration: "Em desenvolvimento"
         },
        
